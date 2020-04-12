@@ -1,4 +1,3 @@
-let header = document.querySelectorAll('.header');
 let menu = document.querySelector('.menu'); //Выводим <nav class="menu"></nav>
 let menuItem = document.querySelectorAll('.menu-item'); //Выводим <li class="menu-item"></li>
 let idTitle = document.querySelectorAll('.title'); //Текст 0 нужно заменить
@@ -36,4 +35,3 @@ menu.insertBefore(menuItem[2], menuItem[1]); //Меняем местами "Вт
 
 //Смена background изображения
 document.body.style.background = 'url(../img/apple_true.jpg) center center/cover no-repeat'; //Замена фона сайта
-
