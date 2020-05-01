@@ -117,7 +117,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 	let message = {
 		loading: "Download..",
-		succes: "Спасибо! Скоро мы с Вами свяжемся!",
+		sucsess: "Спасибо! Скоро мы с Вами свяжемся!",
 		failure: "Что-то пошло не так"
 	};
 
@@ -155,7 +155,7 @@ window.addEventListener('DOMContentLoaded', function() {
 				if (request.readyState < 4) {
 					statusMassage.innerHTML = message.loading;
 				} else if (request.readyState === 4 && request.status == 200) {
-					statusMassage.innerHTML = message.succes;
+					statusMassage.innerHTML = message.sucsess;
 				} else {
 					statusMassage.innerHTML = message.failure;
 				}
